@@ -1,15 +1,4 @@
-h2{
-    font-weight: bold;
-    text-decoration: underline;
-}
 
-p{
-    padding: 10px 0 ;
-}
-
-ul{
-    list-style: none;
-}
 
 
 /* Estilos comunes para las secciones */
@@ -24,12 +13,23 @@ ul{
   margin-top: 0;
   margin-bottom: 10px;
   font-weight: bold;
+  text-decoration: underline;
+}
+
+.section p{
+  padding: 10px 0 ;
+}
+
+.section ul{
+  list-style: none;
 }
 
 /* Estilos para el componente Emphasis */
 .emphasis ul {
   padding-left: 20px;
 }
+
+
 
 .emphasis li {
   margin-bottom: 5px;

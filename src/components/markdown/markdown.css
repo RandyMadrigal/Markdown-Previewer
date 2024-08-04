@@ -1,0 +1,57 @@
+
+/* Estilo para el contenedor principal */
+.container-markdown {
+    width: 80%;/* w-10/12 */
+    background-color: #f1f5f9; /* bg-slate-100 */
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* grid-cols-2 */
+    border-top: 2px solid #ccc; /* border-t-2 */
+    padding: 8px; /* p-2 */
+    gap: 8px; /* gap-2 */
+  }
+  
+  /* Estilo para el EditorMarkdown */
+  .editor-markdown {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    color: #4a5568; /* text-gray-700 */
+    background-color: #fff; /* bg-white */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md */
+    background-clip: border-box; /* bg-clip-border */
+    padding: 16px; /* p-4 */
+  }
+  
+  .editor-markdown h5 {
+    margin-bottom: 8px; /* mb-2 */
+    font-size: 1.25rem; /* text-xl */
+    font-weight: 600; /* font-semibold */
+    color: #1a202c; /* text-blue-gray-900 */
+  }
+  
+  /* Estilo para el textarea en EditorMarkdown */
+  .editor-markdown textarea {
+    width: 100%;
+    height: auto;
+    padding: 8px; /* p-2 */
+    border: 1px solid #e2e8f0; /* border-gray-300 */
+    border-radius: 0.25rem; /* rounded */
+  }
+  
+  /* Estilo para PreviewMarkdown */
+  .preview-markdown {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* shadow-md */
+    background-clip: border-box; /* bg-clip-border */
+    padding: 16px; /* p-4 */
+  }
+  
+  .preview-markdown h5 {
+    margin-bottom: 8px; /* mb-2 */
+    font-size: 1.25rem; /* text-xl */
+    font-weight: 600; /* font-semibold */
+    color: #1a202c; /* text-blue-gray-900 */
+  }
+  

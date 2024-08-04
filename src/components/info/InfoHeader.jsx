@@ -18,7 +18,7 @@ export const InfoHeader = () => {
         lower the heading level.
       </p>
 
-      <ul>
+      <ul className="section ul">
         <li># Heading 1</li>
         <li>## Heading 2</li>
         <li>### Heading 3</li>

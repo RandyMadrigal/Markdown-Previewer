@@ -13,11 +13,9 @@ export const PreviewMarkdown = ({ title, text }) => {
   };
 
   return (
-    <div className="flex flex-col shadow-md bg-clip-border p-4">
+    <div className="preview-markdown">
       <div className="p-2">
-        <h5 className="mb-2 text-xl antialiased font-semibold leading-snug tracking-normal text-blue-gray-900">
-          {title}
-        </h5>
+        <h5>{title}</h5>
       </div>
       <div dangerouslySetInnerHTML={renderMarked()} />
     </div>

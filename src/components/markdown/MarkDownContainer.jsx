@@ -1,6 +1,7 @@
 import { EditorMarkdown } from "./EditorMarkdown";
 import { PreviewMarkdown } from "./PreviewMarkdown";
 import { useState } from "react";
+import "./markdown.css";
 
 export const MarkDownContainer = () => {
   const [text, setText] = useState(
@@ -12,7 +13,7 @@ export const MarkDownContainer = () => {
   };
 
   return (
-    <div className="container w-10/12 h-auto bg-slate-100 mx-auto grid grid-cols-2 border-t-2 p-2 gap-2">
+    <div className="container-markdown">
       <EditorMarkdown title="Editor" handleChange={handleChange} text={text} />
       <PreviewMarkdown title="Preview" text={text} />
     </div>
