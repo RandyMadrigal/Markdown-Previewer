@@ -1,18 +1,23 @@
 import { EditorMarkdown } from "./EditorMarkdown";
 import { PreviewMarkdown } from "./PreviewMarkdown";
 import { useState } from "react";
+import "./markdown.css";
+
+let DEMO = `# Hola mundo \n
+## Hola mundo \n
+### Hola mundo \n
+#### Hola mundo \n
+##### Hola mundo \n`;
 
 export const MarkDownContainer = () => {
-  const [text, setText] = useState(
-    "# Hola Mundo\nEste es un texto en **Markdown**."
-  );
+  const [text, setText] = useState(DEMO);
 
   const handleChange = (e) => {
     setText(e.target.value);
   };
 
   return (
-    <div className="container w-10/12 h-auto bg-slate-100 mx-auto grid grid-cols-2 border-t-2 p-2 gap-2">
+    <div className="container-markdown">
       <EditorMarkdown title="Editor" handleChange={handleChange} text={text} />
       <PreviewMarkdown title="Preview" text={text} />
     </div>

@@ -1,0 +1,91 @@
+/* Estilo para el contenedor */
+.info-container {
+  background-color: #f1f5f9; 
+  margin: 0 auto; 
+  width: 50%; 
+  display: flex; 
+  flex-direction: column; 
+  border-top: 2px solid #e2e8f0; 
+  text-align: center; 
+  padding: 1.25rem; 
+  word-wrap: break-word; 
+}
+
+/* Estilos comunes para las secciones */
+.section {
+  padding-top: 15px; 
+  padding-bottom: 15px; 
+  border-bottom: 2px solid #ccc; 
+  
+}
+
+.section h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.section p{
+  padding: 5px 0 ;
+}
+
+.section ul{
+  list-style: none;
+}
+
+/* Estilos para el componente Emphasis */
+.emphasis ul {
+  padding-left: 20px;
+}
+
+.emphasis li {
+  margin-bottom: 5px;
+}
+
+/* Estilos para el componente Footer */
+.footer a {
+  background-color: #2d6a4f; 
+  color: #fff; 
+  padding: 10px; 
+  border-radius: 0.75rem; 
+  font-weight: bold; 
+  text-decoration: none;
+  margin: 0 8px; 
+  color: white;
+}
+
+.footer a:hover {
+  background-color: #1f3d2a; 
+}
+
+/* Estilos para el componente Image */
+.image span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.image .text-red-500 {
+  color: #f87171; 
+}
+
+.image .text-cyan-600 {
+  color: #06b6d4; 
+}
+
+/* Estilos para el componente InfoHeader */
+.info-header pre {
+  background-color: #f9fafb; 
+  padding: 5px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+/* Estilos para el componente List */
+.list ul {
+  padding-left: 1px;
+}
+
+.list .mt-4 {
+  margin-top: 1px; 
+}

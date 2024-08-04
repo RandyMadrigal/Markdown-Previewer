@@ -1,18 +1,15 @@
 import { Link } from "react-router-dom";
+import "./layouts.css";
 
 export const NavBar = () => {
   return (
-    <div className="container  mx-auto h-20 w-full border-b-2 flex justify-center">
-      <ul className="flex flex-row justify-center items-center font-bold capitalize gap-3 text-xl">
+    <div className="container  navbar">
+      <ul>
         <li>
-          <Link className="hover:uppercase hover:underline" to="/">
-            what is Markdown?
-          </Link>
+          <Link to="/">About</Link>
         </li>
         <li>
-          <Link className="hover:uppercase hover:underline" to="/Markdown">
-            Markdown
-          </Link>
+          <Link to="/Markdown">Markdown</Link>
         </li>
       </ul>
     </div>

@@ -1,0 +1,59 @@
+
+/* Estilo para el contenedor principal */
+.container-markdown {
+    width: 80%;
+    background-color: #f1f5f9; 
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    border-top: 2px solid #ccc; 
+    padding: 8px; 
+    gap: 10px; 
+    overflow: hidden;
+  }
+  
+  /* Estilo para el EditorMarkdown */
+  .editor-markdown {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    color: #4a5568; 
+    background-color: #fff; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    background-clip: border-box; 
+    padding: 20px; 
+  }
+  
+  .title {
+    margin-bottom: 8px;
+    font-size: 1.25rem; 
+    font-weight: 600; 
+    color: #1a202c; 
+  }
+  
+  /* Estilo para el textarea en EditorMarkdown */
+  .editor-markdown textarea {
+    width: 100%;
+    height: auto;
+    padding: 3px; 
+    border: 1px solid #e2e8f0; 
+    border-radius: 0.25rem; 
+    resize: vertical;
+  }
+  
+  /* Estilo para PreviewMarkdown */
+  .preview-markdown {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    background-clip: border-box; 
+    padding: 16px; 
+  }
+  
+  .title {
+    margin-bottom: 8px;
+    font-size: 1.25rem; 
+    font-weight: 600; 
+    color: #1a202c; 
+  }
+  
