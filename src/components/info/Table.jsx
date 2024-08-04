@@ -7,7 +7,7 @@ export const Table = () => {
       `;
 
   return (
-    <section className="py-5 border-b-2">
+    <section className="section table">
       <h2>Table</h2>
       <p>You can create tables using | for columns and - for header rows:</p>
 

@@ -1,6 +1,6 @@
 export const Emphasis = () => {
   return (
-    <section className="py-5 border-b-2">
+    <section className="section emphasis">
       <h2>Emphasis</h2>
       <p>For bold and italics, use:</p>
       <ul>

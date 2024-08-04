@@ -4,7 +4,7 @@ import { List } from "./List";
 import { Image } from "./Image";
 import { Table } from "./Table";
 import { Footer } from "./Footer";
-import "../../info.css";
+import "./info.css";
 
 export const InfoContainer = () => {
   return (

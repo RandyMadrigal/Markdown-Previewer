@@ -1,6 +1,6 @@
 export const InfoHeader = () => {
   return (
-    <section className="py-5 border-b-2 ">
+    <section className="section info-header">
       <h2> #Markdown Basics</h2>
 
       <p>

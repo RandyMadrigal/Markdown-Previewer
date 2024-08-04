@@ -1,0 +1,84 @@
+h2{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+p{
+    padding: 10px 0 ;
+}
+
+ul{
+    list-style: none;
+}
+
+
+/* Estilos comunes para las secciones */
+.section {
+  padding-top: 20px; /* py-5 */
+  padding-bottom: 20px; /* py-5 */
+  border-bottom: 2px solid #ccc; /* border-b-2 */
+  
+}
+
+.section h2 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Estilos para el componente Emphasis */
+.emphasis ul {
+  padding-left: 20px;
+}
+
+.emphasis li {
+  margin-bottom: 5px;
+}
+
+/* Estilos para el componente Footer */
+.footer a {
+  background-color: #2d6a4f; /* bg-green-600 */
+  color: #fff; /* text-white */
+  padding: 10px; /* p-2 */
+  border-radius: 0.75rem; /* rounded-xl */
+  font-weight: bold; /* font-bold */
+  text-decoration: none;
+  margin: 0 8px; /* mx-2 */
+  color: white;
+}
+
+.footer a:hover {
+  background-color: #1f3d2a; /* hover:bg-green-800 */
+}
+
+/* Estilos para el componente Image */
+.image span {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.image .text-red-500 {
+  color: #f87171; /* text-red-500 */
+}
+
+.image .text-cyan-600 {
+  color: #06b6d4; /* text-cyan-600 */
+}
+
+/* Estilos para el componente InfoHeader */
+.info-header pre {
+  background-color: #f9fafb; /* bg-slate-100 */
+  padding: 10px;
+  border-radius: 0.25rem; /* rounded-sm */
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+/* Estilos para el componente List */
+.list ul {
+  padding-left: 20px;
+}
+
+.list .mt-4 {
+  margin-top: 16px; /* mt-4 */
+}

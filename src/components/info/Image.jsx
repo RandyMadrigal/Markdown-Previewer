@@ -1,6 +1,6 @@
 export const Image = () => {
   return (
-    <section className="py-5 border-b-2">
+    <section className="section image">
       <h2> Links</h2>
       <p>To add a link, use: </p>
       <p>

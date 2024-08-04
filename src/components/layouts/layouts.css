@@ -1,0 +1,89 @@
+.container {
+    max-width: 1200px; /* Ajusta el valor según lo que necesitas */
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  /*Navbar*/
+
+.navbar {
+    height: 80px;
+    border-bottom: 2px solid #ccc;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-transform: capitalize;
+    gap: 12px;
+    font-size: 1.25rem; /* text-xl */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar li {
+    margin: 0;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #000; /* Cambia según el color que desees */
+  }
+  
+  .navbar a:hover {
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+
+/*Header*/
+
+  .header {
+    height: 144px; /* h-36 */
+    width: 75%; /* w-9/12 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header h1 {
+    font-size: 3rem; /* text-5xl */
+    text-transform: uppercase;
+  }
+
+  /* Footer*/
+
+  .layout-footer {
+    margin-top: 20px;
+  }
+  
+  .layout-footer .border-top {
+    border-top: 2px solid #ccc;
+  }
+  
+  .layout-footer .icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .layout-footer a {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .layout-footer .icon svg {
+    width: 40px; /* w-6 */
+    height: 40px; /* h-6 */
+  }
+  
+  .layout-footer p {
+    margin-top: 5px;
+    color: #000;
+    text-align: center;
+  }

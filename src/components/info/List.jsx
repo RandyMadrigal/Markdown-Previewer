@@ -1,6 +1,6 @@
 export const List = () => {
   return (
-    <section className="py-5 border-b-2">
+    <section className="section list">
       <h2> Unordered Lists</h2>
       <p>Use -, *, or + to create unordered lists.</p>
       <ul>
