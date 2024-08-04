@@ -8,8 +8,10 @@ export const Table = () => {
 
   return (
     <section className="py-5 border-b-2">
-      <h2>Table</h2>
-      <p>You can create tables using | for columns and - for header rows:</p>
+      <h2 className="font-bold underline">Table</h2>
+      <p className="py-2">
+        You can create tables using | for columns and - for header rows:
+      </p>
 
       <pre>{table}</pre>
     </section>

@@ -1,9 +1,11 @@
 export const Footer = () => {
   return (
     <section className="py-5 border-b-2">
-      <h2>Conclusion</h2>
-      <p>This is a quick guide to getting started with markdown</p>
-      <p>
+      <h2 className="font-bold underline">Conclusion</h2>
+      <p className="py-2">
+        This is a quick guide to getting started with markdown
+      </p>
+      <p className="py-2">
         For more information:
         <a
           href="https://www.markdownguide.org/basic-syntax/"

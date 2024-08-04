@@ -7,7 +7,7 @@ export const Footer = () => {
             <a href="/" className="text-black ">
               <span className="sr-only">GitHub</span>
               <svg
-                className="w-6 h-6"
+                className="w-14 h-14"
                 aria-hidden="true"
                 fill="currentColor"
                 viewBox="0 0 24 24"
@@ -16,7 +16,7 @@ export const Footer = () => {
               </svg>
             </a>
           </div>
-          <p className="mt-4 text-black text-center ">
+          <p className="mt-1 mb-2 text-black text-center ">
             ©{new Date().getFullYear()} Lorem ipsum dolor sit amet, Inc. All
             rights reserved.
           </p>
