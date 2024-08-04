@@ -15,7 +15,7 @@ export const PreviewMarkdown = ({ title, text }) => {
   return (
     <div className="preview-markdown">
       <div className="p-2">
-        <h5>{title}</h5>
+        <h5 className="title">{title}</h5>
       </div>
       <div dangerouslySetInnerHTML={renderMarked()} />
     </div>

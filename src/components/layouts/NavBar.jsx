@@ -6,7 +6,7 @@ export const NavBar = () => {
     <div className="container  navbar">
       <ul>
         <li>
-          <Link to="/">what is Markdown?</Link>
+          <Link to="/">About</Link>
         </li>
         <li>
           <Link to="/Markdown">Markdown</Link>

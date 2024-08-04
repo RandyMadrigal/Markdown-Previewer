@@ -4,14 +4,14 @@ export const EditorMarkdown = ({ title, handleChange, text }) => {
   return (
     <div className="editor-markdown">
       <div className="p-2">
-        <h5>{title}</h5>
+        <h5 className="title">{title}</h5>
       </div>
       <div>
         <textarea
           onChange={handleChange}
           value={text}
           name="editor"
-          rows="10"
+          rows="12"
         ></textarea>
       </div>
     </div>

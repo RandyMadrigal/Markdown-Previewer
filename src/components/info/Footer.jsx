@@ -1,7 +1,6 @@
 export const Footer = () => {
   return (
     <section className="section footer">
-      <h2>Conclusion</h2>
       <p>This is a quick guide to getting started with markdown</p>
       <p>
         For more information:

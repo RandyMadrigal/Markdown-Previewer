@@ -3,10 +3,14 @@ import { PreviewMarkdown } from "./PreviewMarkdown";
 import { useState } from "react";
 import "./markdown.css";
 
+let DEMO = `# Hola mundo \n
+## Hola mundo \n
+### Hola mundo \n
+#### Hola mundo \n
+##### Hola mundo \n`;
+
 export const MarkDownContainer = () => {
-  const [text, setText] = useState(
-    "# Hola Mundo\nEste es un texto en **Markdown**."
-  );
+  const [text, setText] = useState(DEMO);
 
   const handleChange = (e) => {
     setText(e.target.value);

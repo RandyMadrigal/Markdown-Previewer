@@ -1,5 +1,5 @@
 .container {
-    max-width: 1200px; /* Ajusta el valor según lo que necesitas */
+    max-width: 1200px; 
     margin: 0 auto;
     width: 100%;
   }
@@ -20,8 +20,8 @@
     align-items: center;
     font-weight: bold;
     text-transform: capitalize;
-    gap: 12px;
-    font-size: 1.25rem; /* text-xl */
+    gap: 15px;
+    font-size: 1.25rem; 
     list-style: none;
     padding: 0;
     margin: 0;
@@ -33,7 +33,7 @@
   
   .navbar a {
     text-decoration: none;
-    color: #000; /* Cambia según el color que desees */
+    color: #000; 
   }
   
   .navbar a:hover {
@@ -44,15 +44,15 @@
 /*Header*/
 
   .header {
-    height: 144px; /* h-36 */
-    width: 75%; /* w-9/12 */
+    height: 144px; 
+    width: 75%; 
     display: flex;
     justify-content: center;
     align-items: center;
   }
   
   .header h1 {
-    font-size: 3rem; /* text-5xl */
+    font-size: 3rem; 
     text-transform: uppercase;
   }
 
@@ -78,8 +78,8 @@
   }
   
   .layout-footer .icon svg {
-    width: 40px; /* w-6 */
-    height: 40px; /* h-6 */
+    width: 40px; 
+    height: 40px; 
   }
   
   .layout-footer p {

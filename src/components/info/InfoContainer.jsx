@@ -8,7 +8,7 @@ import "./info.css";
 
 export const InfoContainer = () => {
   return (
-    <div className="container bg-slate-100 mx-auto w-6/12 flex flex-col border-t-2 text-wrap text-center p-5">
+    <div className="info-container">
       <InfoHeader />
       <Emphasis />
       <List />
