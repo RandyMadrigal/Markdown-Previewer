@@ -29,6 +29,8 @@
   
   .navbar li {
     margin: 0;
+ 
+    padding: 7px;
   }
   
   .navbar a {
@@ -38,7 +40,6 @@
   
   .navbar a:hover {
     text-transform: uppercase;
-    text-decoration: underline;
   }
 
 /*Header*/
@@ -55,6 +56,8 @@
     font-size: 3rem; 
     text-transform: uppercase;
   }
+
+
 
   /* Footer*/
 
@@ -87,3 +90,50 @@
     color: #000;
     text-align: center;
   }
+
+
+  /* 768*/
+@media (max-width: 768px) {
+  .navbar ul {
+    font-size: 1rem; 
+    gap: 10px; 
+  }
+
+  .header {
+    width: 90%; 
+  }
+
+  .header h1 {
+    font-size: 2rem; 
+  }
+
+  .layout-footer .icon svg {
+    width: 30px; 
+    height: 30px; 
+  }
+}
+
+/* 480 */
+@media (max-width: 480px) {
+  .navbar {
+    height: auto; 
+  }
+
+  .navbar ul {
+    font-size: 1.5rem; 
+    gap: 8px; 
+  }
+
+  .header {
+    width: 100%; 
+  }
+
+  .header h1 {
+    font-size: 1.5rem; 
+  }
+
+  .layout-footer .icon svg {
+    width: 25px; 
+    height: 25px; 
+  }
+}

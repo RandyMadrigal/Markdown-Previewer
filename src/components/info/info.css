@@ -2,7 +2,7 @@
 .info-container {
   background-color: #f1f5f9; 
   margin: 0 auto; 
-  width: 50%; 
+  width: 50%;
   display: flex; 
   flex-direction: column; 
   border-top: 2px solid #e2e8f0; 
@@ -88,4 +88,85 @@
 
 .list .mt-4 {
   margin-top: 1px; 
+}
+
+/* 768px*/
+@media (max-width: 768px) {
+  .info-container {
+    width: 80%; 
+    padding: 1rem;
+  }
+
+  .section {
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+  }
+
+  .section h2 {
+    font-size: 1.2rem;
+  }
+
+  .section p {
+    padding: 4px 0;
+  }
+
+  .emphasis ul {
+    padding-left: 15px;
+  }
+
+  .footer a {
+    padding: 8px; 
+    margin: 0 6px; 
+  }
+
+  .image span {
+    margin-bottom: 8px;
+  }
+
+  .info-header pre {
+    font-size: 0.9rem;
+  }
+
+  .list ul {
+    padding-left: 0;
+  }
+}
+
+/* 480px */
+@media (max-width: 480px) {
+  .info-container {
+    width: 90%;
+    padding: 0.5rem;
+  }
+
+  .section {
+    padding-top: 8px; 
+    padding-bottom: 8px; 
+  }
+
+  .section h2 {
+    font-size: 1rem;
+  }
+
+  .section p {
+    padding: 3px 0;
+  }
+
+  .emphasis ul {
+    padding-left: 10px;
+  }
+
+  .footer a {
+    padding: 6px;
+    margin: 0 4px; 
+    font-size: 0.9rem;
+  }
+
+  .image span {
+    margin-bottom: 5px;
+  }
+
+  .info-header pre {
+    font-size: 0.8rem;
+  }
 }

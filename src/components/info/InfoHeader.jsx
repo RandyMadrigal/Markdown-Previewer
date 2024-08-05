@@ -4,12 +4,12 @@ export const InfoHeader = () => {
       <h2> #Markdown Basics</h2>
 
       <p>
-        # Markdown Basics Markdown is a lightweight markup language that makes
-        it easy to create formatted documents. Here`s how to use it so you can
-        create rich content with ease. ## Headings You can create headings using
-        the `#` symbol. The more `#`s you use, the lower the heading level.
-        ```markdown # Heading 1 ## Heading 2 ### Heading 3 #### Heading 4 #####
-        Heading 5 ###### Heading 6
+        # Markdown is a lightweight markup language that makes it easy to create
+        formatted documents. Here`s how to use it so you can create rich content
+        with ease. ## Headings You can create headings using the `#` symbol. The
+        more `#`s you use, the lower the heading level. ```markdown # Heading 1
+        ## Heading 2 ### Heading 3 #### Heading 4 ##### Heading 5 ###### Heading
+        6
       </p>
 
       <h2> ##Heading</h2>

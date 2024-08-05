@@ -1,9 +1,10 @@
 import "./layouts.css";
+import { AnimateHeader } from "./AnimateHeader";
 
 export const Header = () => {
   return (
     <div className="container header">
-      <h1>MarkDown Previewer</h1>
+      <AnimateHeader />
     </div>
   );
 };

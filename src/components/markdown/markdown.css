@@ -57,3 +57,46 @@
     color: #1a202c; 
   }
   
+  /*  768 */
+@media (max-width: 768px) {
+  .container-markdown {
+    grid-template-columns: 1fr; 
+    padding: 4px; 
+    gap: 8px; 
+  }
+  
+  .editor-markdown,
+  .preview-markdown {
+    padding: 16px; 
+  }
+  
+  .title {
+    font-size: 1rem; 
+  }
+  
+  .editor-markdown textarea {
+    padding: 2px; 
+  }
+}
+
+/* 480 */
+@media (max-width: 480px) {
+  .container-markdown {
+    grid-template-columns: 1fr; 
+    padding: 2px; 
+    gap: 4px; 
+  }
+
+  .editor-markdown,
+  .preview-markdown {
+    padding: 12px; 
+  }
+
+  .title {
+    font-size: 0.875rem; 
+  }
+
+  .editor-markdown textarea {
+    padding: 1px; 
+  }
+}
