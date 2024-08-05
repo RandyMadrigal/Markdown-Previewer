@@ -7,7 +7,6 @@ export const PreviewMarkdown = ({ title, text }) => {
     const dirtyText = text;
     const html = marked.parse(dirtyText); // Convertir Markdown a HTML
     const cleanHtml = DOMPurify.sanitize(html); // Sanitizar el HTML
-    console.log(cleanHtml);
 
     return { __html: cleanHtml }; // Retornar el HTML sanitizado
   };
@@ -17,7 +16,7 @@ export const PreviewMarkdown = ({ title, text }) => {
       <div className="p-2">
         <h5 className="title">{title}</h5>
       </div>
-      <div dangerouslySetInnerHTML={renderMarked()} />
+      <div id="preview" dangerouslySetInnerHTML={renderMarked()} />
     </div>
   );
 };
