@@ -7,7 +7,6 @@ export const PreviewMarkdown = ({ title, text }) => {
     const dirtyText = text;
     const html = marked.parse(dirtyText); // Convertir Markdown a HTML
     const cleanHtml = DOMPurify.sanitize(html); // Sanitizar el HTML
-    console.log(cleanHtml);
 
     return { __html: cleanHtml }; // Retornar el HTML sanitizado
   };
