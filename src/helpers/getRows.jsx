@@ -1,11 +1,13 @@
 export const getRows = (text) => {
   let rows = 0;
 
-  const lineBreak = text.split("").find((x) => {
+  const saltoLinea = text.split("").find((x) => {
     if (x === "\n") {
       rows += 1;
     }
   });
+
+  console.log(rows);
 
   return rows * 1.5;
 };

@@ -16,7 +16,7 @@ export const PreviewMarkdown = ({ title, text }) => {
       <div className="p-2">
         <h5 className="title">{title}</h5>
       </div>
-      <div dangerouslySetInnerHTML={renderMarked()} />
+      <div id="preview" dangerouslySetInnerHTML={renderMarked()} />
     </div>
   );
 };

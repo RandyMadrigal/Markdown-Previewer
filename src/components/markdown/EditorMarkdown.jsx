@@ -8,6 +8,7 @@ export const EditorMarkdown = ({ title, handleChange, text, rows }) => {
       </div>
       <div>
         <textarea
+          id="editor"
           onChange={handleChange}
           value={text}
           name="editor"
