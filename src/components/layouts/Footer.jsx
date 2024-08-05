@@ -16,8 +16,8 @@ export const Footer = () => {
             </a>
           </div>
           <p>
-            ©{new Date().getFullYear()} Lorem ipsum dolor sit amet, Inc. All
-            rights reserved.
+            ©{new Date().getFullYear()} by Chan Lorem ipsum dolor sit amet, Inc.
+            All rights reserved.
           </p>
         </div>
       </section>

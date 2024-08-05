@@ -12,8 +12,8 @@ function App() {
         <NavBar />
         <Header />
         <Routes>
-          <Route path="/" element={<InfoContainer />} />
-          <Route path="/Markdown" element={<MarkDownContainer />} />
+          <Route path="/" element={<MarkDownContainer />} />
+          <Route path="/about" element={<InfoContainer />} />
         </Routes>
         <Footer />
       </BrowserRouter>
