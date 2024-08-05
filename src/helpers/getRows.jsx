@@ -7,7 +7,6 @@ export const getRows = (text) => {
     }
   });
 
-  console.log(rows);
-
   return rows * 1.5;
 };
+

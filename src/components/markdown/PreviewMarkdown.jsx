@@ -3,6 +3,12 @@ import { marked } from "marked";
 import DOMPurify from "dompurify";
 
 export const PreviewMarkdown = ({ title, text }) => {
+
+  marked.use({
+    gfm:true,
+    breaks : true,
+  });
+
   const renderMarked = () => {
     const dirtyText = text;
     const html = marked.parse(dirtyText); // Convertir Markdown a HTML
